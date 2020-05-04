@@ -1,4 +1,4 @@
-# vBungee ~ BungeeCord Management Plugin
+# vBungee
 
 ## Introduction
 
