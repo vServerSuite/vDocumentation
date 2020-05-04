@@ -7,4 +7,4 @@ site_url: https://docs.vsuite.dev
 copyright: Copyright &copy; 2020 vSuite
 
 theme:
-  name: gitbook
+  name: material
