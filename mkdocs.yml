@@ -1,2 +1,10 @@
+site_name: vSuite Documentation
+site_description: Documentation for the vSuite Package
+site_author: vSuite Development & Triage Team
+site_url: https://docs.vsuite.dev
+
+# Copyright
+copyright: Copyright &copy; 2020 vSuite
+
 theme:
   name: gitbook
