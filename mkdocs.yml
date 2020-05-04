@@ -8,3 +8,24 @@ copyright: Copyright &copy; 2020 vSuite
 
 theme:
   name: material
+  language: en
+  palette:
+    primary: '#101d2d'
+    accent: '#2174ea'
+  font:
+    text: Inter
+    code: Fira Code
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/vServerSuite
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true 
