@@ -9,3 +9,9 @@ Message
 
 !!! note
 Test
+
+```java
+ProxyServer.getInstance().getPlayers().stream()
+    .filter(p -> p.hasPermission(Permissions.BAN_RECEIVE))
+    .forEach(p -> p.sendMessage(TextComponent.fromLegacyText(translateColorCodes(alertMessage))));
+```
