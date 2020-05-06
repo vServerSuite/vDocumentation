@@ -11,10 +11,10 @@ The base URL for the API is `https://files.vsuite.dev` - a key usage of this sys
 
 ### Endpoints
 
-| Endpoint                       | Method | Description                                    |
-|--------------------------------|--------|------------------------------------------------|
-| /\<module>/releases            | GET    | Returns a JSON array of all available releases |
-| /\<module>/releases/<@version> | GET    | Downloads the relevant file for that release   |
+| Endpoint                        | Method | Description                                    |
+|---------------------------------|--------|------------------------------------------------|
+| `/<module>/releases`            | GET    | Returns a JSON array of all available releases |
+| `/<module>/releases/<@version>` | GET    | Downloads the relevant file for that release   |
 
 !!! note "File types"
     For all BungeeCord and Minecraft plugins, a .jar file is returned.  In the case of vPanel, however, a zip containing the installation files will be sent.
