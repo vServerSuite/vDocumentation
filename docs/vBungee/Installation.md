@@ -25,3 +25,7 @@
 By default, the WebAPI feature is disabled. This feature allows for requests to be made from `vPanel` to check the status of users and to issue punishments
 
 When the WebAPI is first enabled, a Secret will be generated which can be used on the `vPanel`.
+
+## Error Logging
+
+vSuite uses [Sentry.io](https://sentry.io/) for custom error handling. If you would like any errors that may be produced to be sent to the vSuite team, please join our [Discord](https://discord.vsuite.dev) and create a new ticket in the Support category.
